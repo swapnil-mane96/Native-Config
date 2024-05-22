@@ -1,0 +1,2 @@
+#Asymmetric Encryption cmd
+keytool -genkeypair -alias apiEncryptionKey -keyalg RSA -dname "CN=Sergey Kargopolov,OU=API Development,O=appsdeveloperblog.com,L=Ottawa,S=ON,C=CA" -keypass 1q2w3e4r -keystore apiEncryptionKey.jks -storepass 1q2w3e4r
